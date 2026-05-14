@@ -1,196 +1,161 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FiveM Regelwerk</title>
+# 🚓 FiveM Regelwerk
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family: Arial, sans-serif;
-    }
+Willkommen auf unserem offiziellen FiveM Roleplay Server.  
+Bitte lies dir alle Regeln sorgfältig durch.
 
-    body{
-      background:#0f172a;
-      color:white;
-      line-height:1.6;
-    }
+---
 
-    header{
-      background:linear-gradient(90deg,#2563eb,#1e40af);
-      padding:30px;
-      text-align:center;
-      box-shadow:0 4px 10px rgba(0,0,0,0.4);
-    }
+# 📜 Allgemeine Regeln
 
-    header h1{
-      font-size:3rem;
-    }
+> Diese Regeln gelten jederzeit auf dem gesamten Server.
 
-    header p{
-      margin-top:10px;
-      color:#dbeafe;
-    }
+- Respektvoller Umgang ist Pflicht
+- Kein Rassismus, Extremismus oder Diskriminierung
+- Cheats / Hacks führen zum permanenten Bann
+- Das Ausnutzen von Bugs ist verboten
+- Aufnahmen dürfen nicht ohne Zustimmung veröffentlicht werden
 
-    nav{
-      background:#111827;
-      padding:15px;
-      position:sticky;
-      top:0;
-      z-index:100;
-    }
+---
 
-    nav ul{
-      display:flex;
-      justify-content:center;
-      list-style:none;
-      gap:25px;
-      flex-wrap:wrap;
-    }
+# 🎭 Roleplay Regeln
 
-    nav a{
-      color:white;
-      text-decoration:none;
-      transition:0.3s;
-      font-weight:bold;
-    }
+## FailRP
+Unrealistisches Verhalten ist verboten.
 
-    nav a:hover{
-      color:#60a5fa;
-    }
+### Beispiele:
+- Von hohen Gebäuden springen ohne Verletzungen auszuspielen
+- Ohne Angst vor Waffen reagieren
+- Unrealistische Fahrzeugaktionen
 
-    .container{
-      max-width:1200px;
-      margin:auto;
-      padding:40px 20px;
-    }
+---
 
-    .rule-section{
-      background:#1e293b;
-      margin-bottom:25px;
-      padding:25px;
-      border-radius:15px;
-      box-shadow:0 5px 15px rgba(0,0,0,0.3);
-      transition:0.3s;
-    }
+## MetaGaming
+Informationen aus Streams, Discord oder Twitch dürfen IC nicht verwendet werden.
 
-    .rule-section:hover{
-      transform:translateY(-5px);
-    }
+---
 
-    .rule-section h2{
-      color:#60a5fa;
-      margin-bottom:15px;
-    }
+## PowerRP
+Niemand darf zu einer RP-Handlung gezwungen werden ohne Gegenchance.
 
-    .rule-section ul{
-      padding-left:20px;
-    }
+---
 
-    .rule-section li{
-      margin-bottom:10px;
-    }
+## RDM & VDM
 
-    footer{
-      text-align:center;
-      padding:20px;
-      background:#111827;
-      margin-top:40px;
-      color:#94a3b8;
-    }
+| Regel | Bedeutung |
+|---|---|
+| RDM | Random Deathmatch |
+| VDM | Vehicle Deathmatch |
 
-    .highlight{
-      color:#f87171;
-      font-weight:bold;
-    }
+Beides ist strengstens verboten.
 
-    @media(max-width:768px){
-      header h1{
-        font-size:2rem;
-      }
+---
 
-      nav ul{
-        gap:15px;
-      }
-    }
-  </style>
-</head>
-<body>
+# 🔫 Crime Regeln
 
-  <header>
-    <h1>FiveM Regelwerk</h1>
-    <p>Offizielles Server Regelwerk</p>
-  </header>
+- Geiseln müssen realistisch behandelt werden
+- Cop-Baiting ist verboten
+- New-Life-Regel beachten
+- Nach dem Tod keine Erinnerungen an die Situation
+- Keine unrealistischen Raubüberfälle
 
-  <nav>
-    <ul>
-      <li><a href="#allgemein">Allgemein</a></li>
-      <li><a href="#rp">RP Regeln</a></li>
-      <li><a href="#crime">Crime Regeln</a></li>
-      <li><a href="#safezone">Safezones</a></li>
-      <li><a href="#support">Support</a></li>
-    </ul>
-  </nav>
+---
 
-  <div class="container">
+# 🛡️ Safezones
 
-    <section class="rule-section" id="allgemein">
-      <h2>📜 Allgemeine Regeln</h2>
-      <ul>
-        <li>Jeder Spieler muss respektvoll mit anderen umgehen.</li>
-        <li>Beleidigungen, Rassismus oder Diskriminierung sind verboten.</li>
-        <li>Cheats, Hacks oder Exploits führen zum permanenten Bann.</li>
-        <li>Das Ausnutzen von Bugs ist untersagt.</li>
-      </ul>
-    </section>
+## In Safezones ist verboten:
 
-    <section class="rule-section" id="rp">
-      <h2>🎭 Roleplay Regeln</h2>
-      <ul>
-        <li>Realistisches Roleplay ist Pflicht.</li>
-        <li>FailRP ist verboten.</li>
-        <li>RDM und VDM sind streng untersagt.</li>
-        <li>PowerRP sowie MetaGaming sind verboten.</li>
-      </ul>
-    </section>
+- Schießen
+- Ausrauben
+- Fahrzeuge rammen
+- Personen bedrohen
 
-    <section class="rule-section" id="crime">
-      <h2>🔫 Crime Regeln</h2>
-      <ul>
-        <li>Geiseln müssen realistisch behandelt werden.</li>
-        <li>Cop-Baiting ist verboten.</li>
-        <li>New-Life-Regel muss eingehalten werden.</li>
-        <li>Nach dem Tod dürfen keine Erinnerungen an das RP bestehen.</li>
-      </ul>
-    </section>
+### Safezones:
+- Krankenhaus
+- Polizeistation
+- Autohaus
+- Spawnbereich
 
-    <section class="rule-section" id="safezone">
-      <h2>🛡️ Safezone Regeln</h2>
-      <ul>
-        <li>In Safezones sind Waffen verboten.</li>
-        <li>Kein Töten oder Ausrauben in Safezones.</li>
-        <li>Fahrzeuge dürfen nicht absichtlich gerammt werden.</li>
-      </ul>
-    </section>
+---
 
-    <section class="rule-section" id="support">
-      <h2>📞 Support Regeln</h2>
-      <ul>
-        <li>Supportfälle werden respektvoll behandelt.</li>
-        <li>Lügen im Support ist verboten.</li>
-        <li>Clips oder Beweise sollten vorhanden sein.</li>
-        <li class="highlight">Supporter Entscheidungen sind zu respektieren.</li>
-      </ul>
-    </section>
+# 📞 Support Regeln
 
-  </div>
+- Supportfälle werden respektvoll behandelt
+- Lügen im Support ist verboten
+- Clips & Beweise können angefordert werden
+- Entscheidungen des Teams sind zu akzeptieren
 
-  <footer>
-    © 2026 FiveM Server | Alle Rechte vorbehalten
-  </footer>
+---
 
-</body>
-</html>
+# ⚠️ Bannsystem
+
+| Vergehen | Strafe |
+|---|---|
+| FailRP | Verwarnung |
+| MetaGaming | 1–3 Tage Bann |
+| Cheats | Permanenter Bann |
+| RDM/VDM | Bann |
+
+---
+
+# 🌐 Links
+
+## Discord
+[➡ Discord beitreten](https://discord.gg/deinserver)
+
+## Teamspeak
+```txt
+ts.deinserver.de
+```
+
+---
+
+# 👑 Server Team
+
+| Rang | Aufgabe |
+|---|---|
+| Projektleitung | Serververwaltung |
+| Admin | Support & Moderation |
+| Moderator | Ticketbearbeitung |
+
+---
+
+# ❤️ Viel Spaß auf unserem Server
+
+```diff
++ Mit dem Betreten des Servers akzeptierst du automatisch alle Regeln.
+```
+
+---
+
+# ✨ GitHub Design Tipps
+
+Damit dein README auf GitHub besser aussieht:
+
+## Badges hinzufügen
+
+```md
+![Status](https://img.shields.io/badge/Server-Online-green)
+![FiveM](https://img.shields.io/badge/FiveM-RP-orange)
+![Discord](https://img.shields.io/badge/Discord-Community-blue)
+```
+
+---
+
+## Banner oben
+
+```md
+<p align="center">
+  <img src="https://i.imgur.com/DEINBANNER.png" width="100%">
+</p>
+```
+
+---
+
+## Zentrierter Titel
+
+```html
+<h1 align="center">🚓 FiveM Roleplay Regelwerk</h1>
+<p align="center">
+Modern • Realistisch • Community
+</p>
+```
