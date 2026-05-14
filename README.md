@@ -1,7 +1,7 @@
-<h1 align="center">🚓 FiveM Roleplay Regelwerk</h1>
+<h1 align="center"> Lavie Roleplay Regelwerk</h1>
 
 <p align="center">
-  Willkommen auf unserem offiziellen FiveM Server
+  Willkommen auf Lavie Roleplay
 </p>
 
 <p align="center">
