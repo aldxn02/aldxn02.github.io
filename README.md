@@ -1,47 +1,57 @@
-# 🚓 FiveM Regelwerk
+<h1 align="center">🚓 FiveM Roleplay Regelwerk</h1>
 
-Willkommen auf unserem offiziellen FiveM Roleplay Server.  
-Bitte lies dir alle Regeln sorgfältig durch.
+<p align="center">
+  Willkommen auf unserem offiziellen FiveM Server
+</p>
+
+<p align="center">
+  
+![Status](https://img.shields.io/badge/Server-Online-green)
+![FiveM](https://img.shields.io/badge/FiveM-RP-orange)
+![Discord](https://img.shields.io/badge/Discord-Community-blue)
+
+</p>
 
 ---
 
 # 📜 Allgemeine Regeln
 
-> Diese Regeln gelten jederzeit auf dem gesamten Server.
-
 - Respektvoller Umgang ist Pflicht
-- Kein Rassismus, Extremismus oder Diskriminierung
-- Cheats / Hacks führen zum permanenten Bann
+- Kein Rassismus oder Diskriminierung
+- Cheats/Hacks führen zum permanenten Bann
 - Das Ausnutzen von Bugs ist verboten
-- Aufnahmen dürfen nicht ohne Zustimmung veröffentlicht werden
+- Trolling ist untersagt
 
 ---
 
-# 🎭 Roleplay Regeln
+# 🎭 RP Regeln
 
-## FailRP
+## ❌ FailRP
+
 Unrealistisches Verhalten ist verboten.
 
 ### Beispiele:
-- Von hohen Gebäuden springen ohne Verletzungen auszuspielen
 - Ohne Angst vor Waffen reagieren
-- Unrealistische Fahrzeugaktionen
+- Von Gebäuden springen ohne Verletzungen
+- Unrealistische Fahrweise
 
 ---
 
-## MetaGaming
-Informationen aus Streams, Discord oder Twitch dürfen IC nicht verwendet werden.
+## ❌ MetaGaming
+
+Informationen aus Discord, Twitch oder Streams dürfen IC nicht verwendet werden.
 
 ---
 
-## PowerRP
-Niemand darf zu einer RP-Handlung gezwungen werden ohne Gegenchance.
+## ❌ PowerRP
+
+Niemand darf ohne Gegenchance zu RP gezwungen werden.
 
 ---
 
-## RDM & VDM
+## ❌ RDM & VDM
 
-| Regel | Bedeutung |
+| Begriff | Bedeutung |
 |---|---|
 | RDM | Random Deathmatch |
 | VDM | Vehicle Deathmatch |
@@ -54,9 +64,9 @@ Beides ist strengstens verboten.
 
 - Geiseln müssen realistisch behandelt werden
 - Cop-Baiting ist verboten
+- Combat Logging ist verboten
+- Keine unrealistischen Überfälle
 - New-Life-Regel beachten
-- Nach dem Tod keine Erinnerungen an die Situation
-- Keine unrealistischen Raubüberfälle
 
 ---
 
@@ -66,8 +76,8 @@ Beides ist strengstens verboten.
 
 - Schießen
 - Ausrauben
-- Fahrzeuge rammen
 - Personen bedrohen
+- Fahrzeuge rammen
 
 ### Safezones:
 - Krankenhaus
@@ -79,9 +89,9 @@ Beides ist strengstens verboten.
 
 # 📞 Support Regeln
 
-- Supportfälle werden respektvoll behandelt
+- Supportfälle respektvoll behandeln
 - Lügen im Support ist verboten
-- Clips & Beweise können angefordert werden
+- Clips können angefordert werden
 - Entscheidungen des Teams sind zu akzeptieren
 
 ---
@@ -92,30 +102,32 @@ Beides ist strengstens verboten.
 |---|---|
 | FailRP | Verwarnung |
 | MetaGaming | 1–3 Tage Bann |
-| Cheats | Permanenter Bann |
 | RDM/VDM | Bann |
+| Cheats | Permanenter Bann |
 
 ---
 
-# 🌐 Links
+# 🌐 Server Links
 
 ## Discord
+
 [➡ Discord beitreten](https://discord.gg/deinserver)
 
 ## Teamspeak
+
 ```txt
 ts.deinserver.de
 ```
 
 ---
 
-# 👑 Server Team
+# 👑 Team
 
 | Rang | Aufgabe |
 |---|---|
 | Projektleitung | Serververwaltung |
-| Admin | Support & Moderation |
-| Moderator | Ticketbearbeitung |
+| Admin | Moderation |
+| Moderator | Support |
 
 ---
 
@@ -127,35 +139,6 @@ ts.deinserver.de
 
 ---
 
-# ✨ GitHub Design Tipps
-
-Damit dein README auf GitHub besser aussieht:
-
-## Badges hinzufügen
-
-```md
-![Status](https://img.shields.io/badge/Server-Online-green)
-![FiveM](https://img.shields.io/badge/FiveM-RP-orange)
-![Discord](https://img.shields.io/badge/Discord-Community-blue)
-```
-
----
-
-## Banner oben
-
-```md
 <p align="center">
-  <img src="https://i.imgur.com/DEINBANNER.png" width="100%">
+⭐ Vergiss nicht dem Repository einen Star zu geben ⭐
 </p>
-```
-
----
-
-## Zentrierter Titel
-
-```html
-<h1 align="center">🚓 FiveM Roleplay Regelwerk</h1>
-<p align="center">
-Modern • Realistisch • Community
-</p>
-```
