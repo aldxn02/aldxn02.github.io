@@ -1,197 +1,90 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FiveM Regelwerk</title>
-
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial, sans-serif;
-}
-
-html{
-  scroll-behavior:smooth;
-}
-
-body{
-  background:#0b1220;
-  color:white;
-}
-
-/* NAVBAR */
-nav{
-  position:fixed;
-  top:0;
-  width:100%;
-  background:rgba(10,15,30,0.8);
-  backdrop-filter:blur(12px);
-  display:flex;
-  justify-content:center;
-  padding:15px;
-  z-index:1000;
-}
-
-nav a{
-  color:white;
-  margin:0 15px;
-  text-decoration:none;
-  font-weight:bold;
-  transition:0.3s;
-}
-
-nav a:hover{
-  color:#38bdf8;
-}
-
-/* HEADER */
-header{
-  height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-  url('https://images.unsplash.com/photo-1506377585622-bedcbb027afc?auto=format&fit=crop&w=1600&q=80');
-  background-size:cover;
-  background-position:center;
-}
-
-header h1{
-  font-size:4rem;
-  animation:fadeDown 1s ease;
-}
-
-header p{
-  margin-top:15px;
-  color:#cbd5e1;
-  animation:fadeUp 1.5s ease;
-}
-
-/* SECTIONS */
-section{
-  min-height:100vh;
-  padding:120px 10%;
-  opacity:0;
-  transform:translateY(60px);
-  transition:1s ease;
-}
-
-section.show{
-  opacity:1;
-  transform:translateY(0);
-}
-
-.card{
-  background:rgba(30,41,59,0.8);
-  padding:40px;
-  border-radius:20px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.4);
-  backdrop-filter:blur(10px);
-  transition:0.3s;
-}
-
-.card:hover{
-  transform:scale(1.02);
-}
-
-h2{
-  color:#38bdf8;
-  margin-bottom:20px;
-}
-
-/* FOOTER */
-footer{
-  text-align:center;
-  padding:40px;
-  background:#0a0f1c;
-  color:#94a3b8;
-}
-
-/* ANIMATIONS */
-@keyframes fadeDown{
-  from{opacity:0; transform:translateY(-50px);}
-  to{opacity:1; transform:translateY(0);}
-}
-
-@keyframes fadeUp{
-  from{opacity:0; transform:translateY(50px);}
-  to{opacity:1; transform:translateY(0);}
-}
-
-/* MOBILE */
-@media(max-width:768px){
-  header h1{font-size:2.5rem;}
-  nav{flex-wrap:wrap;}
-}
-</style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Roleplay Server</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-  <a href="#allgemein">Allgemein RP</a>
-  <a href="#crime">Crime</a>
-  <a href="#safe">Safezones</a>
-  <a href="#frak">Fraktionen</a>
-</nav>
+<!-- NAV -->
+<header class="nav">
+  <div class="nav-left">
+    <h1>ROLEPLAY SERVER</h1>
+  </div>
 
-<header>
-  <h1>🚓 FiveM Regelwerk</h1>
-  <p>Modern • Serious RP • Community</p>
+  <nav class="nav-right">
+    <a href="#">Start</a>
+    <a href="#">Regelwerk</a>
+    <a href="#">Crime</a>
+    <a href="#">Safezones</a>
+    <a href="#">Fraktionen</a>
+    <a href="#">Kontakt</a>
+  </nav>
 </header>
 
-<section id="allgemein">
-  <div class="card">
-    <h2>📜 Allgemeines RP</h2>
-    <p>[PLACEHOLDER CONTENT - ADD YOUR RULES HERE]</p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <h4>WILLKOMMEN AUF</h4>
+    <h1><span class="pink">ROLEPLAY</span> SERVER</h1>
+    <p>
+      Ein einzigartiges Roleplay-Erlebnis mit starker Community und fairem Miteinander.
+    </p>
+
+    <div class="buttons">
+      <a class="btn pink" href="#">Regelwerk ansehen</a>
+      <a class="btn" href="#">Discord beitreten</a>
+    </div>
+  </div>
+
+  <div class="hero-glow"></div>
+</section>
+
+<!-- RULES -->
+<section class="rules">
+  <h2>UNSERE REGELWERKE</h2>
+  <p>Alles für ein faires Miteinander</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>ALLGEMEINES RP</h3>
+      <p>Regeln für realistisches und respektvolles Roleplay.</p>
+    </div>
+
+    <div class="card">
+      <h3>CRIME REGELWERK</h3>
+      <p>Regeln für kriminelle Aktivitäten und Überfälle.</p>
+    </div>
+
+    <div class="card">
+      <h3>SAFEZONES</h3>
+      <p>Gebiete mit besonderen Schutzregeln.</p>
+    </div>
+
+    <div class="card">
+      <h3>FRAKTIONEN</h3>
+      <p>Regeln für Organisationen & Gruppen.</p>
+    </div>
+
   </div>
 </section>
 
-<section id="crime">
-  <div class="card">
-    <h2>🔫 Crime Regelwerk</h2>
-    <p>[PLACEHOLDER CONTENT - ADD YOUR RULES HERE]</p>
-  </div>
+<!-- FEATURES -->
+<section class="features">
+  <div class="feature">Aktive Community</div>
+  <div class="feature">Faires RP</div>
+  <div class="feature">Performance Server</div>
+  <div class="feature">Support Team</div>
 </section>
 
-<section id="safe">
-  <div class="card">
-    <h2>🛡️ Safezones</h2>
-    <p>[PLACEHOLDER CONTENT - ADD YOUR RULES HERE]</p>
-  </div>
-</section>
-
-<section id="frak">
-  <div class="card">
-    <h2>👮 Fraktions Regelwerk</h2>
-    <p>[PLACEHOLDER CONTENT - ADD YOUR RULES HERE]</p>
-  </div>
-</section>
-
+<!-- FOOTER -->
 <footer>
-© 2026 FiveM Server • All Rights Reserved
+  <p>© 2026 Roleplay Server</p>
 </footer>
-
-<script>
-const sections = document.querySelectorAll("section");
-
-function show(){
-  sections.forEach(sec=>{
-    const top = sec.getBoundingClientRect().top;
-    if(top < window.innerHeight - 100){
-      sec.classList.add("show");
-    }
-  });
-}
-
-window.addEventListener("scroll", show);
-show();
-</script>
 
 </body>
 </html>
